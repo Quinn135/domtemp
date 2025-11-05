@@ -1,0 +1,21 @@
+/* Import normalize.css from a CDN to provide a well-tested reset, then apply a minimal reset
+   so the page remains visually blank with a black background. */
+@import url("https://cdn.jsdelivr.net/npm/normalize.css/normalize.css");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+div > img {
+  height: 20rem;
+}
+
+*:focus {
+  outline: none;
+}
